@@ -1,3 +1,35 @@
-/*
- * Estilos de tu proyecto
- */
+ul{
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+}
+
+.logo{
+	width: 10%;
+}
+
+.encabezado{
+	outline: 1px solid hotpink;
+}
+
+.usuario{
+	outline: 1px solid crimson;
+}
+
+.barra{
+	outline: 1px solid darkblue;
+}
+
+.tecnico{
+	outline: 1px solid green;
+}
+
+.hse{
+	outline: 1px solid yellow;
+}
+
+.pie{
+	outline: 1px solid orange;	
+}
