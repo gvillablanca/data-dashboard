@@ -1,17 +1,21 @@
-ul{
+ul{	
 	list-style: none;
 }
 
 li{
+	outline: 1px solid blue;
 	display: inline-block;
 }
 
 .logo{
-	width: 10%;
+	width: 200px;
+	height: 40px;
+	margin-top: 15px;
 }
 
 .encabezado{
 	outline: 1px solid hotpink;
+	height:90px;
 }
 
 .usuario{
@@ -32,4 +36,12 @@ li{
 
 .pie{
 	outline: 1px solid orange;	
+}
+
+.izquierda{
+	float: left;
+}
+
+.logotipo{
+	margin-left: 300px;
 }

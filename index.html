@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css\main.css">
     <link rel="stylesheet" href="assets\font-awesome-4.7.0\css\font-awesome.css">
   </head>
 
@@ -11,14 +11,19 @@
     <!--genito-->
     <header id="encabezado" class="encabezado">
         <ul>
-          <li><button class="menu">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-              </button>
+          <li class="izquierda">usuario y foto</li>
+          <li class="izquierda">
+             <select>
+                <option value="User">usuario</option>
+                <option value="Add student">agregar estudiante</option>
+                <option value="remove student">remover estudiante</option>
+                <option value="add sprint">agregar sprint</option>
+              </select> 
             </li>
-          <li>
+
+          <li class="logotipo">
             <img src="assets/images/logo-laboratoria.png" alt="" class="logo">
           </li>
-          <li>select</li>
         </ul>
     </header>
 
@@ -30,6 +35,37 @@
 
     <!--stephie-->
     <section id="estudiante" class="estudiante">
+      <div>
+          <select >
+              <option value="Lima-2015-I">Lima 2015 I</option>
+              <option value="Lima-2015-II">Lima 2015 II</option>
+              <option value="Lima-2016-I">Lima 2016 I</option>
+              <option value="Lima-2016-II">Lima 2016 II</option>
+              <option value="Lima-2017-I">Lima 2017 I</option>
+              <option value="Lima-2017-II">Lima 2017 II</option>
+
+              <option value="Santiago-2015-I">Santiago2015 I</option>
+              <option value="Santiago-2015-II">Santiago 2015 II</option>
+              <option value="Santiago-2016-I">Santiago2016 I</option>
+              <option value="Santiago-2016-II">Santiago 2016 II</option>
+              <option value="Santiago-2017-I">Santiago2017 I</option>
+              <option value="Santiago-2017-II">Santiago 2017 II</option>
+
+              <option value="Arequipa-2015-I">Arequipa 2015 I</option>
+              <option value="Arequipa-2015-II">Arequipa 2015 II</option>
+              <option value="Arequipa-2016-I">Arequipa 2016 I</option>
+              <option value="Arequipa-2016-II">Arequipa 2016 II</option>
+              <option value="Arequipa-2017-I">Arequipa 2017 I</option>
+              <option value="Arequipa-2017-II">Arequipa 2017 II</option>
+
+              <option value="Mexico-2015-I">Mexico 2015 I</option>
+              <option value="Mexico-2015-II">Mexico 2015 II</option>
+              <option value="Mexico-2016-I">Mexico 2016 I</option>
+              <option value="Mexico-2016-II">Mexico 2016 II</option>
+              <option value="Mexico-2017-I">Mexico 2017 I</option>
+              <option value="Mexico-2017-II">Mexico 2017 II</option>
+            </select>
+      </div>
 
       <div class="primer-cuadro">
         <h1>Inscritas</h1>
