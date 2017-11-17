@@ -7,6 +7,11 @@ li{
 	display: inline-block;
 }
 
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
 .logo{
 	width: 200px;
 	height: 40px;
@@ -32,6 +37,10 @@ li{
 
 .hse{
 	outline: 1px solid yellow;
+}
+
+.encuesta{
+	outline: 1px solid red;
 }
 
 .pie{
