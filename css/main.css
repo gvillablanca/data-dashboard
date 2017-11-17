@@ -44,7 +44,51 @@ body{
 }
 
 .pie{
-	outline: 1px solid orange;	
+	outline: 1px solid orange;
+}
+/* stephie*/
+.estudiante{
+	background-color: #F5F5F5;
+}
+.primer-cuadro{
+	margin: 0px;
+	border: 1px solid red;
+	height: 300px;
+	width: 350px;
+	margin-left: 70px;
+	margin-top: 60px;
+	display: inline-block;
+	overflow: hidden;
+}
+h3{
+	left: 70px;
+}
+.cuadrito{
+	border: 1px solid red;
+	background-color: #F5F5F5;
+	height: 50px;
+	width: 100px;
+	left: 20px;
+	display: inline-block;
+	overflow: hidden;
+}
+.segundo-cuadro{
+	border: 1px solid red;
+	height: 300px;
+	width: 350px;
+	margin-left: 30px;
+	margin-top: 40px;
+	display: inline-block;
+	overflow: hidden;
+}
+.tercer-cuadro{
+	border: 1px solid red;
+	height: 300px;
+	width: 350px;
+	margin-left: 30px;
+	margin-top: 40px;
+	display: inline-block;
+	overflow: hidden;
 }
 
 .izquierda{
