@@ -5,6 +5,7 @@
     <title>Data Dashboard</title>
     <link rel="stylesheet" type="text/css" href="css\main.css">
     <link rel="stylesheet" href="assets\font-awesome-4.7.0\css\font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
   </head>
 
   <body>
@@ -12,17 +13,18 @@
     <header id="encabezado" class="encabezado">
         <ul>
           <li class="izquierda">
-            <i class="fa fa-user-circle-o" aria-hidden="true" id="user" onclick="click()"></i>
+             <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                  <i class="fa fa-bars" aria-hidden="true" class="btnbar"></i>
+                </button>
+                  <div id="myDropdown" class="dropdown-content">
+                      <a href="#"><img src="assets/images/perfil.png" alt=""></a>
+                      <a href="#">agregar estudiante</a>
+                      <a href="#">remover estudiante</a>
+                      <a href="#">agregar sprint</a>
+                </div>
+              </div> 
           </li>
-
-          <li class="izquierda">
-             <select>
-                <option value="User">usuario</option>
-                <option value="Add student">agregar estudiante</option>
-                <option value="remove student">remover estudiante</option>
-                <option value="add sprint">agregar sprint</option>
-              </select>
-            </li>
 
           <li class="logotipo">
             <img src="assets/images/logo-laboratoria.png" alt="" class="logo">
@@ -31,8 +33,8 @@
     </header>
 
     <section id="barra" class="barra">
-      <button type="submit">Overview</button>
-      <button type="submit">Students</button>
+      <button type="submit" class="buttonview">Overview</button>
+      <button type="submit" class="buttonview">Students</button>
     </section>
 
 
@@ -78,7 +80,7 @@
           <h3 class="red"> 30</h3>
           <p># % DESERTARON</p>        
       </div>
-      <img class="barra" src="assets/images/bar-graph.png" alt="">
+      <img class="grafico" src="assets/images/bar-graph.png" alt="">
     </div>
 
       <div class="segundo-cuadro">

@@ -1,21 +1,17 @@
-/*
- * Funcionalidad de tu producto
- */
-
-// Puedes hacer uso de la base de datos a través de la variable `data`
-console.log(data);
-
-
-function click (){
-	var encabezado = document.getElementById('encabezado');
-	var user = document.getElementById('user');
-
-	user.addEventListener('click', function(){
-		var div = document.createElements('div');
-
-		div.setAtritbutte('id', 'caja');
-		div.style.backgroundImage = "url(../../assets/images/perfil.png)";
-
-		encabezado.appendChild(div);
-	})
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
 }
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
