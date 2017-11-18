@@ -46,17 +46,8 @@ select, button, a, option{
 	background-color: #E6E6E6;
 
 }
-
 .buttonview:hover{
 	background-color: #FFBF00;
-}
-
-.hse{
-	outline: 1px solid yellow;
-}
-
-.encuesta{
-	outline: 1px solid red;
 }
 
 .pie{
@@ -99,7 +90,7 @@ h3{
 }
 h4{
 	margin-left: 45px;
-	margin-top: 4px;
+	margin-top: 2px;
 	display: inline-block;
 }
 .fa.fa-sort-asc{
@@ -158,12 +149,10 @@ width: 300px;
 }
 .tecnico{
 	background-color: #F5F5F5;
-	outline: 1px solid green;
 	padding: 30px;
 }
 
 .caja-tecnico{
-	border: 1px solid red;
 	margin-left: 65px;
 	height: 500px;
 	width: 1100px;
@@ -173,8 +162,8 @@ width: 300px;
 .texto2{
 	margin: 0px;
 	padding: 0px;
-	margin-top:  10px;
-	margin-left: 20px;
+	margin-top:  20px;
+	margin-left: 35px;
 	display: inline-block;
 }
 
@@ -183,30 +172,102 @@ width: 300px;
 
 }
 .cajita{
-	display: inline-block;
+	display: block;
 	background-color:#F5F5F5 ;
 	height: 55px;
 	width: 120px;
-	margin-left: 21px;
+	margin-left: 30px;
 	margin-top: 20px;
 }
 .cajita1{
-	display: inline-block;
 	background-color:#F5F5F5 ;
 	height: 55px;
 	width: 120px;
-	margin-left: 21px;
-	margin-top: 20px;
-
+	position: absolute;
+	left: 270px;
+	top:600px;
 }
 .grafico-barras{
-	display: block;
+	display: inline-block;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-bottom: 15px;
 	height: 350px;
 	width: 600px;
+	overflow: hidden;
 }
-
+.caja-torta{
+	display: inline-block;
+	height: 350px;
+	width: 400px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.grafico-torta{
+	margin-left: 50px;
+	height: 250px;
+	width: 300px;
+}
+.verde{
+	background-color: green;
+	height: 10px;
+	width: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.rojo{
+	background-color: red;
+	height: 10px;
+	width: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.texto3{
+	margin-left: 4px;
+	display: inline-block;
+}
+.texto4{
+	position: absolute;
+	top: 1000px;
+	left: 790px;
+}
+.hse{
+	padding: 30px;
+	background-color: #F5F5F5;
+}
+.filtro2{
+	display: inline-block;
+}
+.texto5{
+	display: inline-block;
+}
+.caja-hse{
+	margin-left: 65px;
+	height: 500px;
+	width: 1100px;
+	background-color: white;
+}
+.cajita2{
+	background-color:#F5F5F5 ;
+	height: 55px;
+	width: 120px;
+	position: absolute;
+	left: 270px;
+	top:1185px;
+}
+.texto6{
+	position: absolute;
+	top: 1577px;
+	left: 785px;
+}
+.encuesta{
+	padding: 30px;
+	background-color: #F5F5F5;
+}
+.texto7{
+	text-align: center;
+	font-size: 30px;
+}
 .izquierda{
 	float: left;
 }
@@ -258,4 +319,4 @@ width: 300px;
 
 .show {
 	display:block;
-} 
+}
