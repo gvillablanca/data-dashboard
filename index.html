@@ -81,10 +81,7 @@
           <p># DESERTARON</p>
         </div>
         <img class="grafico" src="assets/images/bar-graph.png" alt="">
-
-
-      </div>
-
+    </div>
 
       <div class="segundo-cuadro">
 
@@ -97,7 +94,7 @@
 
         <div class="cuadrito">
           <h4 class="green">%83</h4>
-          <i class="fa fa-sort-asc" aria-hidden="true"></i>
+          <i class="fa fa-sort-asc" aria-hidden="true" class="icon"></i>
           <p>% DEL TOTAL (135)</p>
         </div>
         <img class="linea"src="assets/images/linea2.png" alt="">
@@ -129,7 +126,7 @@
       <div class="caja-tecnico">
 
         <h3 class="texto2">TÉCNICO</h3>
-        <select filtro1>
+        <select id="filtro1">
           <option value="common-core-s1">Common core s1</option>
           <option value="common-core-s2">Common-core s2</option>
           <option value="common-core-s3">Common-core s3</option>
@@ -254,8 +251,8 @@
     </section>
 
 
-    <footer class="pie">
-        <p>Fecha ultima actualización</p>
+    <footer class="pie" id= "pie">
+          <button id="actualizar" class="boton2" onclick="fecha()">Actualizado</button>
     </footer>
 
 		<!-- Base de datos -->

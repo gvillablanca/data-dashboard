@@ -21,6 +21,7 @@ body{
 	width: 210px;
 	height: 50px;
 	margin-top: 15px;
+	margin-left:190px;
 }
 
 .encabezado{
@@ -41,11 +42,21 @@ select, button, a, option{
 
 .buttonview{
 	height: 40px;
-	width: 70px;
-	border: none;
+	width: 150px;
+	border: 1px solid grey;
 	background-color: #E6E6E6;
 
 }
+
+select{
+	border:none;
+	width: 150px;
+}
+
+select:active{
+	background-color: grey;
+}
+
 .buttonview:hover{
 	background-color: #FFBF00;
 }
@@ -93,7 +104,7 @@ h4{
 	margin-top: 2px;
 	display: inline-block;
 }
-.fa.fa-sort-asc{
+.icon{
 	display: inline-block;
 	color: green;
 }
@@ -282,13 +293,13 @@ width: 300px;
     background-color: #E6E6E6;
     color: black;
     padding: 16px;
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: grey;
+    background-color: #FFBF00;
 }
 
 .dropdown {
@@ -313,7 +324,7 @@ width: 300px;
 }
 
 .dropdown-content a:hover {
-	background-color: #f1f1f1;
+	background-color: #FFBF00;
 }
 
 

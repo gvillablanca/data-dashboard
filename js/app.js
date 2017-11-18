@@ -1,3 +1,4 @@
+/*funcion de la barra menu*/
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -15,3 +16,9 @@ window.onclick = function(event) {
     }
   }
 } 
+
+/*funcion agregar fecha actualizacion*/
+
+function fecha(){
+
+}
