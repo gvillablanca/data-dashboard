@@ -1,4 +1,4 @@
-ul{	
+ul{
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
@@ -56,10 +56,6 @@ select, button, a, option{
 	background-color: #FFBF00;
 }
 
-.tecnico{
-	outline: 1px solid green;
-}
-
 .hse{
 	outline: 1px solid yellow;
 }
@@ -75,47 +71,145 @@ select, button, a, option{
 
 /* stephie*/
 .estudiante{
-	background-color: #F5F5F5;
+	background-color:#F5F5F5;
 }
 .primer-cuadro{
-	margin: 0px;
-	border: 1px solid red;
+	background-color: white;
 	height: 300px;
 	width: 350px;
 	margin-left: 70px;
-	margin-top: 60px;
+	margin-top: 30px;
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.treinta{
+	color: red;
+}
+.green{
+	color: green;
+}
+
+.cuadrito{
+	background-color:#F5F5F5 ;
+	height: 55px;
+	width: 120px;
+	margin-left: 30px;
+	margin-top: -10px;
 	display: inline-block;
 	overflow: hidden;
 }
 h3{
-	left: 70px;
+	margin-left:39px;
 }
-.cuadrito{
-	border: 1px solid red;
-	background-color: #F5F5F5;
-	height: 50px;
-	width: 100px;
-	left: 20px;
+h4{
+	margin-left: 45px;
+	margin-top: 4px;
 	display: inline-block;
-	overflow: hidden;
+}
+.fa.fa-sort-asc{
+	display: inline-block;
+	color: green;
+}
+p{
+	font-size: 10px;
+	margin-top: -20px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.grafico{
+	margin-top: 12px;
+margin-left: 25px;
+width: 300px;
 }
 .segundo-cuadro{
-	border: 1px solid red;
+	background-color: white;
 	height: 300px;
 	width: 350px;
 	margin-left: 30px;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	display: inline-block;
 	overflow: hidden;
 }
+.linea{
+	margin-top: -10px;
+  margin-left: 25px;
+  width: 300px;
+	height: 220px;
+}
 .tercer-cuadro{
-	border: 1px solid red;
+	background-color: white;
 	height: 300px;
 	width: 350px;
 	margin-left: 30px;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	display: inline-block;
 	overflow: hidden;
+}
+.linea1{
+	margin-top: 30px;
+  margin-left: 25px;
+  width: 300px;
+	height: 160px;
+}
+
+.texto{
+	margin-top: 2px;
+	text-align: left;
+	font-size: 10px;
+}
+.tecnico{
+	background-color: #F5F5F5;
+	outline: 1px solid green;
+	padding: 30px;
+}
+
+.caja-tecnico{
+	border: 1px solid red;
+	margin-left: 65px;
+	height: 500px;
+	width: 1100px;
+	background-color: white;
+
+}
+.texto2{
+	margin: 0px;
+	padding: 0px;
+	margin-top:  10px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.filtro1{
+	display: inline-block;
+
+}
+.cajita{
+	display: inline-block;
+	background-color:#F5F5F5 ;
+	height: 55px;
+	width: 120px;
+	margin-left: 21px;
+	margin-top: 20px;
+}
+.cajita1{
+	display: inline-block;
+	background-color:#F5F5F5 ;
+	height: 55px;
+	width: 120px;
+	margin-left: 21px;
+	margin-top: 20px;
+
+}
+.grafico-barras{
+	display: block;
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 350px;
+	width: 600px;
 }
 
 .izquierda{
