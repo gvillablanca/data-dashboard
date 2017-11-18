@@ -30,12 +30,7 @@ body{
 	background-color: #E6E6E6;
 }
 
-.usuario{
-	outline: 1px solid crimson;
-}
-
 .barra{
-	outline: 1px solid darkblue;
 	background-color: #E6E6E6;
 	height: 40px;
 }
