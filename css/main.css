@@ -456,14 +456,13 @@ width: 300px;
 }
 
 /*Perfil de estudiantes*/
-
 .perfilEstudiante{
 	margin: 10px;
 }
 
 .principal, .datosPersonales, .notas, .premios{
 	margin-left: 10px;
-	background-color: #F5F5F5;
+	background-color: white;
 
 }
 
@@ -474,4 +473,8 @@ width: 300px;
 .perfilEstudiante{
 	width: 25%;
 	border: 1px solid black;
+}
+
+.body3{
+	background-color: #F5F5F5;
 }
