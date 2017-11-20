@@ -42,6 +42,7 @@ body{
 
 select, button, a, option{
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 .buttonview{
@@ -76,6 +77,7 @@ select, button, a, option{
 select{
 	border:none;
 	width: 150px;
+	display: inline-block;
 }
 
 select:active{
@@ -133,6 +135,7 @@ h4{
 	display: inline-block;
 	color: green;
 }
+
 p{
 	font-size: 10px;
 	margin-top: -20px;
@@ -203,10 +206,6 @@ width: 300px;
 	display: inline-block;
 }
 
-.filtro1{
-	display: inline-block;
-
-}
 .cajita{
 	display: block;
 	background-color:#F5F5F5 ;
@@ -449,4 +448,5 @@ width: 300px;
 
 .perfilEstudiante{
 	width: 25%;
+	border: 1px solid black;
 }
