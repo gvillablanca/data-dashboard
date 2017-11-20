@@ -16,9 +16,3 @@ window.onclick = function(event) {
     }
   }
 } 
-
-/*funcion agregar fecha actualizacion*/
-
-function fecha(){
-
-}
