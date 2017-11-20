@@ -375,15 +375,15 @@ width: 300px;
 	overflow: hidden;
 }
 .foto-alumna{
-	height: 160px;
-	width: 130px;
+	height: 150px;
+	width: 190px;
 	margin-left: 20px;
 	margin-top: 10px
 }
 .caja-datos{
 	height: 180px;
 	width: 270px;
-	margin-left: -4px;
+	margin-left: 5px;
 	display: inline-block;
 	overflow: hidden;
 }
@@ -445,7 +445,7 @@ width: 300px;
 }
 .fa.fa-caret-right{
 position: absolute;
-left: 970px;
+left: 975px;
 top: 368px;
 }
 
