@@ -460,21 +460,67 @@ width: 300px;
 	margin: 10px;
 }
 
-.principal, .datosPersonales, .notas, .premios{
-	margin-left: 10px;
+.principal, .datosPersonales, .notas, .premios, .nombre{
 	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nombre{
+	display: inline-block;
+	width: 520px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+
+}
+.principal, .datosPersonales{
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
 
 }
 
 .logoPremios{
-	width: 5%;
+	width: 10%;
+}
+
+.notas, .premios{
+	text-align: center;
+}
+.premios{
+	display: inline-block;
+	margin-left: 600px;
+	height: 200px;
+	position: absolute;
+	top: 420px;
+
 }
 
 .perfilEstudiante{
 	width: 25%;
 	border: 1px solid black;
+	float: right;
+	margin-right: 300px;
+	border-radius: 15px;
+
 }
 
 .body3{
 	background-color: #F5F5F5;
+}
+
+.titulosDatos{
+	text-decoration: underline;
+}
+
+.porcentajes{
+	border: 1px solid grey;
+	padding: 30px;
+	border-radius: 15px;
+}
+
+.porcentajes:hover{
+	background-color: #FFBF00;
 }
