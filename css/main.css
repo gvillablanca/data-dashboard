@@ -129,7 +129,7 @@ h4{
 	margin-top: 2px;
 	display: inline-block;
 }
-.icon{
+.fa.fa-sort-asc{
 	display: inline-block;
 	color: green;
 }
@@ -429,4 +429,24 @@ width: 300px;
 .caja-alumna2{
 	margin-top: 20px;
 	background-color: white;
+}
+
+/*Perfil de estudiantes*/
+
+.perfilEstudiante{
+	margin: 10px;
+}
+
+.principal, .datosPersonales, .notas, .premios{
+	margin-left: 10px;
+	background-color: #F5F5F5;
+
+}
+
+.logoPremios{
+	width: 5%;
+}
+
+.perfilEstudiante{
+	width: 25%;
 }
