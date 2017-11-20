@@ -361,20 +361,11 @@ width: 300px;
   padding: 30px;
   background-color: #F5F5F5;
 }
-.contenedor{
-  background-color:#F5F5F5;
-	border: 1px solid blue;
-  height: 1000px;
-  width: 700px;
-  display: inline-block;
-  margin-left: 250px;
-  overflow: hidden;
-}
 
 .caja-alumna{
   background-color: white;
   height: 180px;
-  width: 800px;
+  width: 790px;
 	margin-left: 200px;
 }
 .caja-foto{
@@ -421,17 +412,16 @@ width: 300px;
 	margin-left: 12px;
 }
 .caja-numeros{
-	border: 1px solid red;
 	height: 180px;
-	width: 350px;
+	width: 340px;
 	display: inline-block;
 	overflow: hidden;
 	margin-left: -4px;
 }
 .cuadrito3{
+	background-color: #E6E6E6;
 	height: 70px;
 	width: 70px;
-	border: 1px solid blue;
 	display: inline-block;
 	margin-left: 30px;
 	margin-top: 10px;
@@ -448,11 +438,15 @@ width: 300px;
 	margin-top: -15px;
 }
 .perfil{
-	margin-left:10px;
+	display: block;
+	margin-left: 240px;
+	margin-top: 70px;
+
 }
 .fa.fa-caret-right{
-	display: inline-block;
-
+position: absolute;
+left: 970px;
+top: 368px;
 }
 
 /*Perfil de estudiantes*/
