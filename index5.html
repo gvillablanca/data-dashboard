@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Profesores</title>
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+    <link rel="stylesheet" href="assets\font-awesome-4.7.0\css\font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body>    
+    <header id="encabezado" class="encabezado">
+        <ul>
+          <li class="izquierda">
+             <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                  <i class="fa fa-bars" aria-hidden="true" class="btnbar"></i>
+                </button>
+                  <div id="myDropdown" class="dropdown-content">
+                      <a href="#"><img src="assets/images/perfil.png" alt=""></a>
+                      <a href="#">agregar estudiante</a>
+                      <a href="#">remover estudiante</a>
+                      <a href="#">agregar sprint</a>
+                </div>
+              </div>
+          </li>
+
+          <li class="logotipo">
+            <img src="assets/images/logo-laboratoria.png" alt="" class="logo">
+          </li>
+        </ul>
+    </header>
+
+    <section id="barra" class="barra">
+      <a href="index.html" title="" class="buttonview">OVERVIEW</a>
+      <a href="index2.html" title="" class="buttonview">STUDENTS</a>
+      <a href="index4.html" title="" class="buttonview">TEACHERS</a>
+    </section>
+
+    <!-- perfil de profesores-->
+
+     <section class="PerfilEstdiante">
+      <img src="assets/images/belen.png" alt="" class="perfilEstudiante">
+
+      <div class="nombre">
+        <H1 class="name">Belen Recabal</H1>
+      </div>   
+
+      <section>
+      <div class="principal">        
+        <h2 class="titulosDatos">Especializacion</h2>
+        <ul>
+          <li>Front end</li>
+          <li>Ux Designer</li>
+          <li>Profesora Laboratoria</li>
+        </ul>
+      </div>
+
+      <div class="datosPersonales">
+        <h2 class="titulosDatos">Datos de estudio</h2>
+          <ul>
+            <li>Ciudad: Chile</li>
+            <li>Edad: x años</li>
+            <li>Sede: Santiago de chile</li>
+            <li>Año ingreso: x año</li>
+            <li>Año egreso: x año</li>
+          </ul>
+      </div>
+    </section>
+
+      <div class="porcentajeProfes">
+      <h2 class="titulosDatos">Porcentajes</h2>
+      <ul>
+        <li class="porcentajes">Estudiantes satisfechas: 95.6% </li>
+        <li class="porcentajes">Rating profesor: 95.6% </li>
+        <li class="porcentajes">Jedi Master: 95.6% </li>
+      </ul>         
+      </div>
+    </section>
+
+        <!-- Base de datos -->
+    <script src="./js/data.js"></script>
+
+    <!-- Aquí va tus archivos JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

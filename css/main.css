@@ -518,3 +518,13 @@ top: 368px;
 .porcentajes:hover{
 	background-color: #FFBF00;
 }
+
+.porcentajeProfes{
+	display: inline-block;
+	margin-left: 600px;
+	height: 200px;
+	position: absolute;
+	top: 480px;
+	text-align: center;
+
+}
