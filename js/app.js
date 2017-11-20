@@ -22,7 +22,3 @@ window.onclick = function(event) {
 function fecha(){
 
 }
-
-function students(){
-	
-}
