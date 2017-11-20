@@ -363,17 +363,19 @@ width: 300px;
 }
 .contenedor{
   background-color:#F5F5F5;
+	border: 1px solid blue;
   height: 1000px;
   width: 700px;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 250px;
   overflow: hidden;
 }
 
 .caja-alumna{
   background-color: white;
   height: 180px;
-  width: 700px;
+  width: 800px;
+	margin-left: 200px;
 }
 .caja-foto{
 	height: 180px;
@@ -389,7 +391,7 @@ width: 300px;
 }
 .caja-datos{
 	height: 180px;
-	width: 250px;
+	width: 270px;
 	margin-left: -4px;
 	display: inline-block;
 	overflow: hidden;
@@ -402,32 +404,55 @@ width: 300px;
 	font-weight: normal;
 	margin-left: 10px;
 	margin-top: -12px;
+	display: block;
 }
 .cuadri{
 	background-color: #F5F5F5;
-	height: 20px;
-	width: 70px;
-	margin-left: 9px;
-	display: inline-block;
+	height: 30px;
+	width: 75px;
+	margin-left: 10px;
 	margin-top: -10px;
+	display: inline-block;
 }
 .h6{
 	font-weight: normal;
 	display: inline-block;
-	position: absolute;
-	top: 228px;
+	margin-top: 10px;
+	margin-left: 12px;
 }
 .caja-numeros{
 	border: 1px solid red;
 	height: 180px;
-	width: 242px;
+	width: 350px;
 	display: inline-block;
 	overflow: hidden;
 	margin-left: -4px;
 }
-.caja-alumna2{
-	margin-top: 20px;
-	background-color: white;
+.cuadrito3{
+	height: 70px;
+	width: 70px;
+	border: 1px solid blue;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.n{
+	font-size: 17px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.texto9{
+	font-size: 10px;
+	text-align: center;
+	margin-left: 2px;
+	margin-top: -15px;
+}
+.perfil{
+	margin-left:10px;
+}
+.fa.fa-caret-right{
+	display: inline-block;
+
 }
 
 /*Perfil de estudiantes*/
