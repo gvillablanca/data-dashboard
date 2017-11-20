@@ -9,7 +9,7 @@ a{
 	text-decoration: none;
 }
 
-li{
+.izquierda, .logotipo, .porcentajes{
 	display: inline-block;
 	padding: 0px;
 	margin: 0px;
@@ -52,6 +52,18 @@ select, button, a, option{
 	padding: 8px;
 	padding-right: 10px;
 
+}
+
+.boton2{
+	height: 50px;
+	width: 300px;
+	background-color: #E6E6E6;
+	padding: 8px;
+	padding-right: 10px;
+}
+
+.boton2:hover{
+	background-color: #FFBF00;
 }
 
 .text2{
