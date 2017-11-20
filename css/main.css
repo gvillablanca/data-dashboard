@@ -57,8 +57,9 @@ select, button, a, option{
 
 .text2{
 	display: inline-block;
-	font-size: 12px;
+	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 select{
