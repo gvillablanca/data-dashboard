@@ -448,6 +448,10 @@ position: absolute;
 left: 975px;
 top: 368px;
 }
+.profesores{
+  padding: 30px;
+  background-color: #F5F5F5;
+}
 
 /*Perfil de estudiantes*/
 .perfilEstudiante{
@@ -518,6 +522,7 @@ top: 368px;
 .porcentajes:hover{
 	background-color: #FFBF00;
 }
+
 
 .porcentajeProfes{
 	display: inline-block;
