@@ -453,7 +453,24 @@ top: 368px;
   padding: 30px;
   background-color: #F5F5F5;
 }
-
+.h11{
+	margin-left: 20px;
+	margin-top: 50px;
+	font-size: 35px;
+}
+.caja-profe{
+  background-color: white;
+  height: 180px;
+  width: 790px;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.foto-profesor{
+	height: 150px;
+	width: 190px;
+	margin-left: 20px;
+	margin-top: 10px
+}
 /*Perfil de estudiantes*/
 .perfilEstudiante{
 	margin: 10px;
